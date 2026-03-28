@@ -1,0 +1,26 @@
+{
+  "name": "Node Scaffold (Phase-0)",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  },
+
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": {
+      "label": "Node app",
+      "onAutoForward": "notify"
+    }
+  },
+
+  "postCreateCommand": "node -v && npm -v"
+}
