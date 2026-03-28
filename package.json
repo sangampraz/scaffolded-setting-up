@@ -1,0 +1,16 @@
+{
+  "name": "scaffolded-setting-up",
+  "version": "1.0.0",
+  "description": "This is the setting up assignment to use docker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
